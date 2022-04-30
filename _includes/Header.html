@@ -55,6 +55,9 @@
         {%- if site.user.display != true -%}
             {%- assign header_direction = 'site-heading-ltr' -%}
         {%- endif -%}
+        {%- if site.user.photo == null -%}
+            {%- assign user_icon = false -%}
+        {%- endif -%}
         {%- if page.content-type == "post" -%}
             {%- assign header_direction = 'site-heading-ltr' -%}
             {%- assign userboard_display = 'hide' -%}
@@ -168,9 +171,11 @@
     </div>
     {%- if site.user.display and userboard_display == 'show' -%}
     <div class="avatar {{avatar_margin}} disable-select" title="click me to know more">
+        {%- if user_icon -%}
         <a class="avatar-link" href="/about">
             <img src="{{site.user.photo}}" class="avatar-img" alt="avatar"/>
         </a>
+        {%- endif -%}
     </div>
     {%- endif -%}
     <div class="main-site-subheader menu disable-select">
