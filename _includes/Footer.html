@@ -28,8 +28,8 @@
 *
 {%- endcomment -%}
 
-{%- if site.copyright.msg != nil and site.copyright.msg != empty and site.copyright.msg != null -%}
 <div id="copyright">
+    {%- if site.copyright.msg != nil and site.copyright.msg != empty and site.copyright.msg != null -%}
     <p id="copyright-notice">© {{site.copyright.msg}}. {{site.copyright.year}}</p>
+    {%- endif -%}
 </div> 
-{%- endif -%}
