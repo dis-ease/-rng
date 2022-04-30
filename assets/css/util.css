@@ -104,13 +104,13 @@ layout: Stylesheet
 }
 
 .boxit {
-    padding: 20px;
+    padding: var(--space-sides);
     background-color: var(--secondary-bg-color);
     border-radius: 5px;
 }
 
 #boxit {
-    padding-left: 20px;
+    padding-left: var(--space-sides);
     border-radius: 5px;
 }
 

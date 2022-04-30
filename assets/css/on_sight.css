@@ -27,7 +27,7 @@ layout: Stylesheet
     position: absolute;
     vertical-align: middle;
     margin-top: -2px;
-    padding-left: 20px;
+    padding-left: var(--space-sides);
     stroke: var(--secondary-text-color) !important;
     padding-top: 12.5px;
     z-index: 1;
@@ -39,7 +39,7 @@ layout: Stylesheet
     padding-top: 12.5px;
     z-index: 1;
     right: 0px !important;
-    padding-right: 20px;
+    padding-right: var(--space-sides);
 }
 
 .search-shortcut kbd:first-child, .search-shortcut kbd:nth-child(2) {
@@ -111,7 +111,7 @@ layout: Stylesheet
     padding-top: 0.25rem; 
     padding-right: 0.75rem; 
     padding-bottom: 0.25rem; 
-    padding-left: 20px; 
+    padding-left: var(--space-sides); 
     text-decoration: none !important;
 }
 
@@ -281,7 +281,7 @@ layout: Stylesheet
 
 .feed-title {
     color: var(--primary-text-color);
-    margin-left: 20px;
+    margin-left: var(--space-sides);
     margin-right: 50px;
     font-size: 16.5px;
     font-family:  var(--primary-font-family);
@@ -291,7 +291,7 @@ layout: Stylesheet
 .feed-excerpt{
     color: var(--primary-text-color);
     margin-top: -12px;
-    margin-left: 20px !important;
+    margin-left: var(--space-sides) !important;
     margin-right: 30px;
     font-family:  var(--secondary-font-family);
     font-size: 15px;
@@ -323,7 +323,7 @@ layout: Stylesheet
 }
 
 .content {
-  line-height: 20px;
+  line-height: var(--space-sides);
 }
 
 .content a {
@@ -444,9 +444,9 @@ li .mn-right {
     min-width:300px; 
     top:50%;
     left:100%;
-    margin-left:20px;
+    margin-left:var(--space-sides);
     transform:translate(0, -50%);
-    padding:10px 20px;
+    padding:10px var(--space-sides);
     color: var(--primary-text-color);
     background-color:var(--primary-bg-color);
     font-weight:normal;
@@ -554,8 +554,8 @@ label.srs-toggle {
 
 .related h4 {
     color: var(--secondary-text-color);
-    padding-top: 20px;
-    padding-left: 20px
+    padding-top: var(--space-sides);
+    padding-left: var(--space-sides)
 }
 
 .related-wrapper {
@@ -607,8 +607,8 @@ label.srs-toggle {
 
 .scroll-to-top {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: var(--space-sides);
+    right: var(--space-sides);
     border-radius: 30px;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -712,7 +712,7 @@ label.srs-toggle {
 }
 
 #copyright {
-    margin-left: 20px;
+    margin-left: var(--space-sides);
 }
 
 #copyright-notice {
@@ -721,7 +721,7 @@ label.srs-toggle {
 }
 
 #disqus_thread {
-    margin-left: 20px;
+    margin-left: var(--space-sides);
     margin-right: 10px;
 }
 
@@ -782,7 +782,7 @@ label.srs-toggle {
         top:40px;
         left:50%;
         transform:translate(-50%, 0);
-        padding:10px 20px;
+        padding:10px var(--space-sides);
         color:var(--primary-text-color);
         background-color:var(--primary-bg-color);
         font-weight:normal;

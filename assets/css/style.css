@@ -33,5 +33,7 @@ layout: Stylesheet
     --primary-font-family: sans-serif; 
     --secondary-font-family: sans-serif;
     --monospace-font-family: monospace;
+
+    --space-sides: 20px;
 }
 

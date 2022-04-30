@@ -32,7 +32,8 @@ body {
     border-left: 1px solid var(--primary-border-color);
     border-right: 1px solid var(--primary-border-color);
     border-bottom: 1px solid var(--primary-border-color);
-    width: 60%;
+    padding-bottom: var(--space-sides);
+    width: 70%;
     position: absolute;
     top: 0px;
 }
@@ -45,7 +46,7 @@ header {
 
 main {
     min-height: 300px;
-    margin-left: 20px;
+    margin-left: var(--space-sides);
     padding-right: 10px;
 }
 
