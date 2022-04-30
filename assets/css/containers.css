@@ -1,0 +1,55 @@
+---
+layout: Stylesheet
+---
+
+@import "/assets/css/highlight.css";
+@import "/assets/css/style.css";
+ 
+/* Containers: Body, Container, Box, Main, Header, Content */ 
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    counter-reset: sidenote-counter; 
+}
+
+.container {
+    display: flex;    
+    position: relative;         
+    flex-direction: column;     
+    justify-content: center;
+    position: absolute;
+    top: 0px;  
+    left: 0px;
+    right: 0px;
+    bottom: 0px;  
+    align-items: center;       
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box {
+    border-left: 1px solid var(--primary-border-color);
+    border-right: 1px solid var(--primary-border-color);
+    border-bottom: 1px solid var(--primary-border-color);
+    width: 60%;
+    position: absolute;
+    top: 0px;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    min-height: 300px;
+    margin-left: 20px;
+    padding-right: 10px;
+}
+
+
