@@ -157,7 +157,7 @@ defaults:
       type: posts
     values:
       layout: Post
-      permalink: /garden/posts/:title
+      permalink: /posts/:title
       content-type: post
 
 
