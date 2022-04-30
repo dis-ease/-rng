@@ -195,7 +195,7 @@ layout: Stylesheet
     margin-top: 5px;
     margin-left: auto;
     font-weight: 600;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-family: var(--monospace-font-family);
     color: var(--primary-text-color); 
 }

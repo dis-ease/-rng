@@ -35,5 +35,8 @@ layout: Stylesheet
     --monospace-font-family: monospace;
 
     --space-sides: 20px;
+    --border-radius-small: 4px; 
+    --border-radius-medium: 6px; 
+    --border-radius-large: 8px; 
 }
 
