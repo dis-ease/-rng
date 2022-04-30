@@ -2,10 +2,6 @@
 layout: Stylesheet
 ---
 
-@import "/assets/css/highlight.css";
-@import "/assets/css/style.css";
- 
-
 /* Blogposts: Post-heading, Post-subheading, Post-content, Related Posts*/
 
 .site-heading-rtl {
@@ -16,16 +12,17 @@ layout: Stylesheet
     justify-content: space-around;
 }
 
-
-.site-heading-rtl a {
-    text-decoration: none;
-}
-
 .site-heading-ltr {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
+}
+
+
+.site-heading-rtl a, 
+.site-heading-ltr a {
+    text-decoration: none;
 }
 
 .site-heading-rtl > .main-page-heading, 
@@ -45,10 +42,10 @@ layout: Stylesheet
 
 
 .site-heading-rtl > .main-page-tagline, .site-heading-ltr > .main-page-tagline {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     font-family:  var(--monospace-font-family);
     font-size: 0.7rem;
-    font-weight: 600;
+    /* font-weight: 600; */
     margin-top: -25px;
 }
 
@@ -61,11 +58,12 @@ layout: Stylesheet
 }
 
 
-.site-heading-rtl > .main-page-subheading, .site-heading-ltr > .main-page-subheading {
+.site-heading-rtl > .main-page-subheading,
+.site-heading-ltr > .main-page-subheading {
     color: var(--primary-text-color);
     font-family:  var(--monospace-font-family);
     font-weight: 600;
-    font-size: 17.3px !important;
+    font-size: 20px !important;
     margin-top: -8px;
 }
 
@@ -78,9 +76,6 @@ layout: Stylesheet
     margin-left: 20px;
 }
 
-.site-heading-ltr a {
-    text-decoration: none;
-}
 
 
 .avatar {
@@ -111,7 +106,7 @@ layout: Stylesheet
 
 
 .dashboard {
-    border-bottom: 1px solid var(--primary-border-color);
+    /* border-bottom: 1px solid var(--primary-border-color); */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -187,7 +182,7 @@ layout: Stylesheet
 
 .menu-item {
     flex-basis: auto;
-    border-right: 1px solid var(--primary-border-color);
+    /* border-right: 1px solid var(--primary-border-color); */
     display: flex;
     flex-direction: column;
     padding-left: 14px;
@@ -214,7 +209,7 @@ layout: Stylesheet
     margin-left: auto;
     font-weight: 600;
     font-size: 0.7rem;
-    font-family: var(--primary-font-family);
+    font-family: var(--monospace-font-family);
     color: var(--primary-text-color); 
 }
 

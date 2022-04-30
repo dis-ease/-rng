@@ -2,10 +2,6 @@
 layout: Stylesheet
 ---
 
-@import "/assets/css/highlight.css";
-@import "/assets/css/style.css";
- 
-
 /* Phrasing Style: H1, H2, H3, H4, H5, H6, P, A, UL, LI */
 
 h1 {
