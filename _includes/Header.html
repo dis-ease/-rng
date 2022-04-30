@@ -31,6 +31,7 @@
 
 <header>
     <div class="dashboard disable-select">
+
         {%- assign header_direction = 'site-heading-rtl' -%}
         {%- assign userboard_display = 'show' -%}
         {%- assign main_heading_size = 'medium-small' -%}
@@ -53,7 +54,7 @@
             {%- assign menu_margin = 'margin-top-10-neg' -%}
         {%- endif -%}
         
-        {%- if site.user.display != true -%}
+        {%- if site.user.display != true or site.preferences.heading.direction == 'ltr' -%}
             {%- assign header_direction = 'site-heading-ltr' -%}
         {%- endif -%}
         {%- if site.user.photo == null -%}
